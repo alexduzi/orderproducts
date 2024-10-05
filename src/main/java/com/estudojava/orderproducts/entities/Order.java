@@ -5,7 +5,6 @@ import java.time.Instant;
 import java.util.Objects;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -58,11 +57,11 @@ public class Order implements Serializable {
 		this.moment = moment;
 	}
 
-	public User getUser() {
+	public User getClient() {
 		return client;
 	}
 
-	public void setUser(User user) {
+	public void setClient(User user) {
 		this.client = user;
 	}
 
