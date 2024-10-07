@@ -22,7 +22,7 @@ import com.estudojava.orderproducts.repositories.ProductRepository;
 import com.estudojava.orderproducts.repositories.UserRepository;
 
 @Configuration
-@Profile(value = "test")
+@Profile(value = "dev")
 public class TestConfig implements CommandLineRunner {
 	
 	@Autowired
