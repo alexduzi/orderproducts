@@ -1,1 +1,1 @@
-web: java -jar build/libs/orderproducts-0.0.1-SNAPSHOT.jar
+web: java -jar app/target/orderproducts-0.0.1-SNAPSHOT.jar
